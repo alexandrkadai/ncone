@@ -2,18 +2,17 @@
   height: 100px;
   width: 100%;
   background-color: #ffcc26;
-
-  h2 {
-    text-transform: uppercase;
-    float: right;
-    margin-right: 92px;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 48px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #414141;
-    font-family: var(--font-anek);
-    font-weight: 600;
-  }
+}
+.headline {
+  text-transform: uppercase;
+  float: right;
+  margin-right: 92px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #414141;
+  font-family: var(--font-anek);
+  font-weight: 600;
 }
