@@ -1,7 +1,23 @@
-.fav-conainer {
+.fav-container {
+  margin-top: 100px;
+  margin-left: 100px;
   position: fixed;
   width: 407px;
   height: 880px;
   border-radius: 30px;
-  border: dashed 2px #414141;
+  border: 2px dashed #414141;
+  background-color: white;
+
+  span {
+    position: absolute;
+    text-transform: uppercase;
+    top: 45px;
+    left: 30px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #414141;
+    font-family: var(--font-anek);
+    font-weight: 600;
+  }
 }

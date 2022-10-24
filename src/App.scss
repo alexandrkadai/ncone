@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+  --white-color: #fbfbfb;
+  --tru-white: #ffffff;
+  --grey-color: #414141;
+  --yellow-color: #ffcc26;
+  --font-anek: Anek Telugu;
+  --font-poppins: Poppins;
+}
+
+body {
+  background-color: var(--white-color);
+}

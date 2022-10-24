@@ -1,0 +1,45 @@
+.onecard-container {
+  width: 262px;
+  height: 350px;
+  background-color: white;
+  border: 1px dashed #414141;
+  border-radius: 30px;
+  position: relative;
+}
+
+.onecard-info {
+  position: absolute;
+  width: 202px;
+  bottom: 17px;
+  padding: 0px 35px 0px 25px;
+}
+.product-name {
+  position: relative;
+  bottom: 3px;
+  font-family: var(--font-poppins);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--grey-color);
+}
+.product-price {
+  font-family: var(--font-poppins);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.onecard-footer {
+  width: 100%;
+  button {
+    background-image: url(../../asset/img/Vector.svg);
+    background-position: center;
+    width: 31.5px;
+    height: 31.5px;
+    border-width: 0px;
+    border-style: outset;
+    border-color: none;
+    float: right;
+  }
+}
