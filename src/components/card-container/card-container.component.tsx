@@ -6,7 +6,6 @@ import { useEffect, useState, Key } from 'react';
 // import Card from '../one-card/one-card.component';
 import Card2 from '../card2/card2.component';
 import './card-container.style.scss';
-import Product from '../product/product.component';
 
 export type Product = {
   id: Key;
@@ -22,7 +21,7 @@ export interface IProduct {
 }
 
 const CardContainer = () => {
-  const [product, setProduct] = useState<IProduct[]>([]);
+  const [product, setProduct] = useState([]);
 
   useEffect(() => {
     fetch('https://testbackend.nc-one.com/image')
@@ -45,7 +44,7 @@ const CardContainer = () => {
   return (
     <div className="card-container">
       {product.map((product: Product) => {
-        <Card2 products={product} />;
+        return <Card2 key={product.id} products={product} />;
       })}
     </div>
   );
