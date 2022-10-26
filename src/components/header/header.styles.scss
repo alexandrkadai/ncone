@@ -12,7 +12,10 @@
   line-height: 48px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #414141;
   font-family: var(--font-anek);
   font-weight: 600;
+}
+.headline-link {
+  text-decoration: none;
+  color: #414141;
 }

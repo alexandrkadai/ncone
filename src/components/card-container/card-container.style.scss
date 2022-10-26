@@ -3,5 +3,8 @@
   width: 1137px;
   right: 100px;
   top: 185px;
-  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 70px;
 }

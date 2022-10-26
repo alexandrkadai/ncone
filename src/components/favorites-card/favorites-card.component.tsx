@@ -1,0 +1,1 @@
+import './favorites-card.styles';
